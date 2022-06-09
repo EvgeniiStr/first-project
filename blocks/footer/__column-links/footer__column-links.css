@@ -1,4 +1,9 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
+  transition: opacity 1s linear;
+}
+
+.footer__column-links:hover {
+  opacity: 50%;
 }
